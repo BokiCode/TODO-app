@@ -13,12 +13,14 @@
 </head>
 <body>
     <section class="container">
-        <h1>TODO application</h1>
+        <h1 class="websiteTitle">TODO application</h1>
         <form>
-            <input type="text" class="inputField" placeholder="Write your task here">
-            <button type="button" class="submitTaskButton">New Task</button>
+            <input type="text" class="inputField" id="inputField" placeholder="Write your task here">
+            <label for="inputField"></label>
+            <button type="button" id="submitTaskButton" class="submitTaskButton">New Task</button>
         </form>
+        <div class="taskHolder" id="taskHolder"></div>
     </section>
-
+    <script src="js/script.js"></script>
 </body>
 </html>
